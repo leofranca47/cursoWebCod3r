@@ -11,3 +11,9 @@ const prod2 = {
 };
 
 console.log(prod2);
+
+
+const a = {name: 'Teste'};
+const b = a;
+
+console.log(b);
