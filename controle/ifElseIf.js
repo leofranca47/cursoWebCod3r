@@ -23,3 +23,5 @@ imprimirResultado(4.3);
 imprimirResultado(2);
 imprimirResultado(-1);
 imprimirResultado(12);
+
+console.log('Leo testando');
