@@ -108,19 +108,107 @@
 // console.log(pontos([10, 20, 20, 8, 25, 3, 0, 30, 1]));
 
 // 09
-const maior = 100;
-const menor = 0;
+// const maior = 100;
+// const menor = 0;
 
-function resultado(nota){
-    if(nota < 38){
-        return 'Reprovado';
-    } else if( nota < 40){
-        if(nota%5 != 0){
-            nota = Math.round(nota)
-            console.log(nota)
+// function resultado(nota){
+//     if(nota < 38){
+//         return {
+//             nota,
+//             resu: 'Reprovado'
+//         };
+//     } else if( nota <= 40){
+//         if(nota%5 == 0){
+//             return {
+//                 nota,
+//                 resu: 'Aprovado'
+//             };
+//         } else if(nota%5 != 0){
+//             if((nota + 1)%5 == 0){
+//                 nota += 1;
+//                 return {
+//                     nota,
+//                     resu: 'Aprovado'
+//                 };
+//             } else if((nota + 2)%5 == 0){
+//                 nota +=2;
+//                 return {
+//                     nota,
+//                     resu: 'Aprovado'
+//                 };
+//             }
+//         }
+//     } else if(nota > 40){
+//         if(nota%5 == 0){
+//             return {
+//                 nota,
+//                 resu: 'Aprovado'
+//             };
+//         } else if((nota + 1)%5 == 0){
+//             nota += 1;
+//             return {
+//                 nota,
+//                 resu: 'Aprovado'
+//             };
+//         } else if((nota + 2)%5 == 0){
+//             nota +=2;
+//             return {
+//                 nota,
+//                 resu: 'Aprovado'
+//             };
+//         }
+//     }
+// }
+
+// console.log(resultado(38))
+
+// 10
+// function divisivelPorTres(numero){
+//     if(numero%3 == 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// console.log(divisivelPorTres(7));
+
+// 11
+// function calcularAnoBissexto (ano) {
+//     if (ano <= 0){
+//         return false
+//     } else if (ano % 400 == 0) {
+//         return true
+//     } else if (ano % 100 == 0) {
+//         return false
+//     } else if (ano % 4 == 0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(calcularAnoBissexto(0))
+// console.log(calcularAnoBissexto(4))
+// console.log(calcularAnoBissexto(100))
+// console.log(calcularAnoBissexto(400))
+// console.log(calcularAnoBissexto(800))
+// console.log(calcularAnoBissexto(2020))
+// console.log(calcularAnoBissexto(2021))
+
+// 12
+function fatorial(numero){
+    if(numero == 0){
+        return 1;
+    }else{
+        let cont = numero;
+        for(let i = numero; i > 1; i--){
+            if(i != numero){
+                cont *= i; 
+            }
         }
+        return cont;
     }
 }
-
-resultado(38)
+console.log(fatorial(1));
 
