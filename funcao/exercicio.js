@@ -197,18 +197,136 @@
 // console.log(calcularAnoBissexto(2021))
 
 // 12
-function fatorial(numero){
-    if(numero == 0){
-        return 1;
-    }else{
-        let cont = numero;
-        for(let i = numero; i > 1; i--){
-            if(i != numero){
-                cont *= i; 
-            }
-        }
-        return cont;
-    }
-}
-console.log(fatorial(1));
+// function fatorial(numero){
+//     if(numero == 0){
+//         return 1;
+//     }else{
+//         let cont = numero;
+//         for(let i = numero; i > 1; i--){
+//             if(i != numero){
+//                 cont *= i; 
+//             }
+//         }
+//         return cont;
+//     }
+// }
+// console.log(fatorial(10));
+
+// 13
+// function diaUtil(dia){
+//     switch(dia){
+//         case 1:
+//         case 7:
+//             return "Fim de semana";
+//         break;
+//         case 2:
+//         case 3:
+//         case 4:
+//         case 5:
+//         case 6:
+//             return "Dia útil";
+//         break;
+//         default:
+//             return "Dia Inválido";
+//     }
+// }
+
+// console.log(diaUtil(1));
+// console.log(diaUtil(2));
+// console.log(diaUtil(3));
+// console.log(diaUtil(4));
+// console.log(diaUtil(5));
+// console.log(diaUtil(6));
+// console.log(diaUtil(7));
+// console.log(diaUtil(8));
+
+// 14
+// function sacolao(fruta){
+//     switch(fruta){
+//         case 'maçã':
+//             return "Não vendemos esta fruta aqui";
+//             break;
+//         case 'kiwi':
+//             return "Estamos com escassez de kiwis";
+//             break;
+//         case 'melancia':
+//             return "Aqui está, são 3 reais o quilo";
+//             break;
+//         default:
+//             return "Solicite uma fruta valida para o nosso sacolão";
+//     }
+// }
+
+// console.log(sacolao("maçã"));
+// console.log(sacolao("kiwi"));
+// console.log(sacolao("melancia"));
+// console.log(sacolao("beterraba"));
+
+// 15
+
+// function comprarVeiculo(modelo){
+//     switch(modelo){
+//         case 'hatch':
+//             return "Compra efetuada com sucesso";
+//             break;
+//         case 'sedan':
+//         case 'motocicleta':
+//         case 'caminhonete':
+//             return "Tem certeza que não prefere esse modelo?";
+//             break;
+//         default:
+//             return "Não trabalhamos com este tipo de automóvel aqui";
+//     }
+// }
+
+// console.log(comprarVeiculo('hatch'));
+// console.log(comprarVeiculo('motocicleta'));
+// console.log(comprarVeiculo('jipe'));
+
+// 16
+// function calculadora(valor1, valor2, sinal){
+//     switch(sinal){
+//         case '+':
+//             return valor1 + valor2;
+//             break;
+//         case '-':
+//             return valor1 - valor2;
+//             break;
+//         case '*':
+//             return valor1 * valor2;
+//             break;
+//         case '/':
+//             return valor1 / valor2;
+//             break;
+//         default:
+//             return "Entre com um sinal válido";
+//     }
+// }
+
+// console.log(calculadora(20,2,'+'));
+// console.log(calculadora(20,2,'-'));
+// console.log(calculadora(20,2,'*'));
+// console.log(calculadora(20,2,'/'));
+
+// 17
+// function aumento(plano, salario){
+//     switch(plano){
+//         case 'A':
+//             return (salario * 10/100) + salario;
+//             break
+//         case 'B':
+//             return (salario * 15/100) + salario;
+//             break;
+//         case 'C':
+//             return (salario * 20/100) + salario;
+//             break
+//         default:
+//             return "Plano invalido";
+//     }
+// }
+
+// console.log(aumento('A', 1000));
+// console.log(aumento('B', 1000));
+// console.log(aumento('C', 1000));
+// console.log(aumento('D', 1000));
 
