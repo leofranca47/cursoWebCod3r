@@ -330,3 +330,105 @@
 // console.log(aumento('C', 1000));
 // console.log(aumento('D', 1000));
 
+// 18 function numero(num){
+//     switch(num){
+//         case 0:
+//             return "Zero";
+//             break;
+//         case 1:
+//             return "Um";
+//             break;
+//         case 2:
+//             return "Dois";
+//             break;
+//         case 3:
+//             return "Três";
+//             break;
+//         case 4:
+//             return "Quatro";
+//             break;
+//         case 5:
+//             return "Cinco";
+//             break;
+//         case 6:
+//             return "Seis";
+//             break;
+//         case 7:
+//             return "Sete";
+//             break;
+//         case 8:
+//             return "Oito";
+//             break;
+//         case 9:
+//             return "Nove";
+//             break;
+//         case 10:
+//             return "Dez";
+//             break;
+//         default:
+//             return "Numero fora da sequencia";
+//     }
+// }
+
+// console.log(numero(7));
+// console.log(numero(30));
+
+// // 19
+// function lanchonete(cod, qtd) {
+//     switch (cod) {
+//         case 100:
+//             return {
+//                 produto: "cachorro quente",
+//                 qtd,
+//                 valorUnitario: "R$ 3,00",
+//                 valorTotal: "R$ " + (qtd * 3).toLocaleString('pt-BR')
+//             };
+//             break;
+//         case 200:
+//             return {
+//                 produto: "Hambúrguer Simples",
+//                 qtd,
+//                 valorUnitario: "R$ 4,00",
+//                 valorTotal: "R$ " + (qtd * 4).toLocaleString('pt-BR')
+//             };
+//             break;
+//         case 300:
+//             return {
+//                 produto: "Cheeseburguer",
+//                 qtd,
+//                 valorUnitario: "R$ 5,50",
+//                 valorTotal: "R$ " + (qtd * 5.5).toLocaleString('pt-BR')
+//             };
+//             break;
+//         case 400:
+//             return {
+//                 produto: "Bauru",
+//                 qtd,
+//                 valorUnitario: "R$ 7,50",
+//                 valorTotal: "R$ " + (qtd * 7.5).toLocaleString('pt-BR')
+//             };
+//             break;
+//         case 500:
+//             return {
+//                 produto: "Refrigerante",
+//                 qtd,
+//                 valorUnitario: "R$ 3,50",
+//                 valorTotal: "R$ " + (qtd * 3.5).toLocaleString('pt-BR')
+//             };
+//             break;
+//         case 600:
+//             return {
+//                 produto: "Suco",
+//                 qtd,
+//                 valorUnitario: "R$ 2,80",
+//                 valorTotal: "R$ " + (qtd * 2.8).toLocaleString('pt-BR')
+//             };
+//             break;
+//         default:
+//             return "Não temos esse produto";
+//     }
+// }
+// console.log(lanchonete(100, 10));
+// console.log(lanchonete(600, 5));
+
+// 20
